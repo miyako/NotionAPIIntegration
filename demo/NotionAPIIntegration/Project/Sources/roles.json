@@ -1,0 +1,53 @@
+{
+	"forceLogin": false,
+	"permissions": {
+		"allowed": [
+			{
+				"applyTo": "ds",
+				"type": "datastore",
+				"read": [
+					"guest",
+					"none"
+				],
+				"create": [
+					"guest",
+					"none"
+				],
+				"update": [
+					"guest",
+					"none"
+				],
+				"drop": [
+					"guest",
+					"none"
+				],
+				"execute": [
+					"guest",
+					"none"
+				]
+			}
+		]
+	},
+	"privileges": [
+		{
+			"id": "fvNQR9wCRRMEwoW5t1mP1F",
+			"privilege": "dev",
+			"includes": []
+		},
+		{
+			"id": "3M6g6JbNJzFAntBfQhuu2G",
+			"privilege": "none",
+			"includes": []
+		}
+	],
+	"roles": [
+		{
+			"id": "u9DVmXSdX73ACQZqUP9zG1",
+			"role": "dev",
+			"privileges": [
+				"none",
+				"dev"
+			]
+		}
+	]
+}

@@ -1,0 +1,8 @@
+[
+  {
+    "class": "4D.NetKit.OAuth2Authorization",
+    "method": "getResponse",
+    "regexPattern": "/authorize",
+    "verbs": "get"
+  }
+]

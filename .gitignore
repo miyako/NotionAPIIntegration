@@ -8,3 +8,7 @@ demo/*/Data/
 demo/*/Logs/
 demo/*/userPreferences.*/
 demo/*/Project/DerivedData/
+
+# Private TLS material shipped with the demo
+demo/*/key.pem
+demo/*/csr.txt

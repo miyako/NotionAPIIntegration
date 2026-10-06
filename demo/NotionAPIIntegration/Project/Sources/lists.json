@@ -1,0 +1,27 @@
+{
+	"Status": {
+		"editable": false,
+		"items": [
+			{
+				"text": "In Stock",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Out of Stock",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Low Stock",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "Ordered",
+				"ref": 4,
+				"editable": true
+			}
+		]
+	}
+}

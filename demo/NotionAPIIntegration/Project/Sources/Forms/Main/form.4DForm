@@ -1,0 +1,268 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"inventoryListbox": {
+					"type": "listbox",
+					"left": 20,
+					"top": 23,
+					"width": 1336,
+					"height": 498,
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"listboxType": "collection",
+					"dataSource": "mappedInventory",
+					"method": "ObjectMethods/inventoryListbox.4dm",
+					"currentItemSource": "Form:C1466.curItem",
+					"currentItemPositionSource": "Form:C1466.curPos",
+					"selectedItemsSource": "Form:C1466.curProducts",
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"columns": [
+						{
+							"header": {
+								"name": "Name",
+								"text": "Name"
+							},
+							"name": "Column14",
+							"dataSource": "This:C1470.productName",
+							"footer": {
+								"name": "Footer14"
+							},
+							"textAlign": "center"
+						},
+						{
+							"header": {
+								"name": "Header12",
+								"text": "Revenue Estimate"
+							},
+							"name": "Column12",
+							"footer": {
+								"name": "Footer12"
+							},
+							"dataSource": "This:C1470.revenueEstimate",
+							"numberFormat": "$##0.00",
+							"dataSourceTypeHint": "number",
+							"textAlign": "center"
+						},
+						{
+							"header": {
+								"text": "Category",
+								"name": "Header1"
+							},
+							"name": "Column1",
+							"footer": {
+								"name": "Footer1"
+							},
+							"dataSource": "This:C1470.category",
+							"method": "ObjectMethods/Column1.4dm",
+							"textAlign": "center"
+						},
+						{
+							"header": {
+								"name": "Header13",
+								"text": "SKU"
+							},
+							"name": "Column13",
+							"footer": {
+								"name": "Footer13"
+							},
+							"dataSource": "This:C1470.sku",
+							"textAlign": "center"
+						},
+						{
+							"header": {
+								"name": "Header11",
+								"text": "Date Added"
+							},
+							"name": "Column11",
+							"footer": {
+								"name": "Footer11"
+							},
+							"dataSource": "This:C1470.dateAdded",
+							"dataSourceTypeHint": "date",
+							"textAlign": "center"
+						},
+						{
+							"header": {
+								"name": "Header10",
+								"text": "Price"
+							},
+							"name": "Column10",
+							"footer": {
+								"name": "Footer10"
+							},
+							"dataSource": "This:C1470.price",
+							"dataSourceTypeHint": "number",
+							"numberFormat": "$##0.00",
+							"textAlign": "center"
+						},
+						{
+							"header": {
+								"name": "Header9",
+								"text": "Restock Date"
+							},
+							"name": "Column9",
+							"footer": {
+								"name": "Footer9"
+							},
+							"dataSource": "This:C1470.restockDate",
+							"textAlign": "center"
+						},
+						{
+							"header": {
+								"name": "Header8",
+								"text": "Sold Units"
+							},
+							"name": "Column8",
+							"footer": {
+								"name": "Footer8"
+							},
+							"dataSource": "This:C1470.soldUnits",
+							"dataSourceTypeHint": "number",
+							"textAlign": "center"
+						},
+						{
+							"header": {
+								"name": "Header6",
+								"text": "Status"
+							},
+							"name": "Column6",
+							"footer": {
+								"name": "Footer6"
+							},
+							"dataSource": "This:C1470.status",
+							"textAlign": "center"
+						},
+						{
+							"header": {
+								"name": "Header7",
+								"text": "Stock Level"
+							},
+							"name": "Column7",
+							"footer": {
+								"name": "Footer7"
+							},
+							"dataSource": "This:C1470.stockLevel",
+							"width": 120,
+							"dataSourceTypeHint": "number",
+							"textAlign": "center"
+						},
+						{
+							"header": {
+								"name": "Header5",
+								"text": "Supplier"
+							},
+							"name": "Column5",
+							"footer": {
+								"name": "Footer5"
+							},
+							"dataSource": "This:C1470.supplier",
+							"textAlign": "center"
+						}
+					]
+				},
+				"Button": {
+					"type": "button",
+					"text": "Update Stock",
+					"top": 564,
+					"left": 687,
+					"width": 160,
+					"height": 43,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button.4dm",
+					"sizingY": "move"
+				},
+				"Button1": {
+					"type": "button",
+					"text": "Get Inventory",
+					"top": 564,
+					"left": 906,
+					"width": 160,
+					"height": 43,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button1.4dm",
+					"sizingY": "move"
+				},
+				"Button2": {
+					"type": "button",
+					"text": "Delete Item",
+					"top": 564,
+					"left": 468,
+					"width": 160,
+					"height": 43,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button2.4dm",
+					"sizingY": "move"
+				},
+				"Button3": {
+					"type": "button",
+					"text": "Add New Item",
+					"top": 564,
+					"left": 249,
+					"width": 160,
+					"height": 43,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button3.4dm",
+					"sizingY": "move"
+				}
+			}
+		}
+	],
+	"geometryStamp": 119,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"method": "method.4dm"
+}
