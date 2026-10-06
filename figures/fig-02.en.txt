@@ -1,0 +1,67 @@
+Name
+Revenue Estimate
+Category
+sku
+Date Added
+Price
+Festock Date
+‘Sold Units
+‘Stock Level
+Supplier
+Black TV HD
+Out of Stock
+Ecatlome Ariane
+$100.00,
+Electronics
+$1000
+10
+10
+Black TV HD
+(Out of Stock
+Ecablome Ariane
+100.00
+Electronics
+10
+10
+Low Stock
+White Shoes
+Yellow Shirt
+$100.00
+10
+Low Stock
+10
+3100.00
+10
+10
+In Stock
+0,00
+2025-08-10723400..
+10
+109
+Main
+Handerafted Bambo..
+In Stock
+Artisans
+‘Smart LED Desk Lam
+337485
+Home Goods
+2025.08-02
+$2499
+2025.08-15
+5
+In Stock
+100
+$367.92
+Electronics
+2025-05-04
+$45.99
+2025.05-11
+100
+(GreenTech Solutions
+‘Smart LED Desk Lams
+$367.92
+2025-05-08
+$45.99
+2025-05-11
+10
+(GreenTech Solutions

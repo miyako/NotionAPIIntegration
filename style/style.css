@@ -65,7 +65,18 @@ h4 { font-size: 11pt; margin: 1.1em 0 0.4em; }
 .toc .p { order: 2; min-width: 1.6em; text-align: right; }
 
 /* Lists */
-ul { margin: 0 0 0.6em; padding-left: 1.6em; }
+ul, ol { margin: 0 0 0.6em; padding-left: 1.6em; }
+
+/* Notes: shaded box, as in the original */
+blockquote {
+  margin: 0.4em 0 0.9em;
+  padding: 0.3em 0.8em;
+  background: #99ccff;
+  font-size: 10pt;
+  font-style: italic;
+  break-inside: avoid;
+}
+blockquote p { margin: 0; }
 li { margin: 0.1em 0; }
 
 /* Code: kept exactly as in the original */

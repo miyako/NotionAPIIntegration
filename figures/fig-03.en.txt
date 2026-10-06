@@ -1,0 +1,75 @@
+Date Added
+Name
+Revenue Estimate
+Category
+Price
+Restock Date
+Sold Unite
+Stock Level
+Supplier
+$1000
+Black TV HO.
+Electonics
+2025-08-11T23000.,
+10
+Out of Stock
+Out of Stock
+10
+Artisans
+Black TV HO
+‘$100.00
+$10.00
+10
+10
+Ariane
+Yellow Shirt
+'$100.00
+‘Apparel
+$10.00
+10
+Low Stock
+Low Stock
+10
+FestFachion Wholes.
+Greentech
+$10.00
+‘White Shoes
+‘Apparel
+2025-08-11T2300
+1723000.
+10
+10
+$0,
+0
+10
+Handcrafted Bambo..
+Home Goods
+2025-05-02
+$2499
+2025-05-15
+5
+In Stock
+100
+EcoHiome Artizans
+‘Smart LED Desk Lamp)
+$367.92
+Electronics
+2025-05-08
+$45.99
+2025-05-11
+In Stock
+109
+“GreenTech Solutions
+‘Smart LED Lamp)
+$3267.92
+Other
+2025-05-08
+$45.99
+2025.05-11
+In Stock
++100
+“GreenTech Solutions
+‘Ada New Item
+Delete tem
+Update Stock
+Get Inventory

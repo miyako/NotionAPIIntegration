@@ -1,0 +1,112 @@
+yer
+Share
+INVENTORY MANAGER
+2
+Inventory Manager
+Bi All Products
+® Groups
+4 Categories
+Status
+Supplier
+Restock Calendar
+Aa Product Name
+Revenue Estimate
+SKU
+Category
+® StockLevel
+F Sold (Units)
+0 Price
+Restock Date
+® Supplier
+Notes
+$100.00
+Electronics
+10 =
+10 =
+EcoHome Artisans
+Black TV HD
+APLO3
+$10.00
+August 12, 2025
+‘Augus
+12:00 AM
+12:00/
+10 =
+10 =
+Black TV HD
+$100.00
+APLO3
+Electronics
+$10.00
+August 12, 2025
+EcoHome Artisans
+‘Augus
+12:00 AM
+12:00/
+10 =
+10 =
+Yellow Shirt
+$100.00
+APLO3
+Apparel
+$10.00
+August 12, 2025
+Greentech Solution
+‘Augus
+12:00 AM
+12:00/
+10 =
+10 =
+White Shoes
+$100.00
+APLO3
+Apparel
+$10.00
+August 12, 2025
+FastFashion Wholes.
+‘Augus
+12:00 AM
+12:00/
+® Smart LED Desk Lamp
+$367.92
+TECH44S
+Other
+100
+$45.99
+May 11, 2025
+GreenTech Solutions
+Premium supplier, minimum
+May 4,
+order 10 units
+® Handcrafted Bamboo Bowls
+$374.85
+HG789
+Home Goods
+100
+$24.99
+May 15, 2025
+EcoHome Artisans
+Artisan supplier, each piece
+May 2,
+unique. Order 1 month ahead.
+® Smart LED Desk Lamp
+$367.92
+TECH44S
+Electronics
+100
+$45.99
+May 11, 2025
+GreenTech Solutions
+Premium supplier, minimum
+May 4,
+order 10 units
+10 =
+GUDA
+$0.00
+Apparel
+100
+$0.00
+August 11, 2025
+Main
+12:00 AM
+12:00
