@@ -1,0 +1,248 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": ":xliff:addProduct_WindowTitle",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Text": {
+					"type": "text",
+					"text": ":xliff:addProduct_LabelName",
+					"top": 29,
+					"left": 23,
+					"width": 150,
+					"height": 15
+				},
+				"Input": {
+					"type": "input",
+					"left": 108,
+					"top": 28,
+					"width": 194,
+					"height": 16,
+					"dataSource": "Form:C1466.productName"
+				},
+				"Text1": {
+					"type": "text",
+					"text": ":xliff:addProduct_LabelCategory",
+					"top": 65,
+					"left": 23,
+					"width": 150,
+					"height": 15
+				},
+				"Text2": {
+					"type": "text",
+					"text": ":xliff:addProduct_LabelPrice",
+					"top": 101,
+					"left": 23,
+					"width": 150,
+					"height": 15
+				},
+				"Text3": {
+					"type": "text",
+					"text": ":xliff:addProduct_LabelStockLevel",
+					"top": 137,
+					"left": 23,
+					"width": 150,
+					"height": 15
+				},
+				"Text4": {
+					"type": "text",
+					"text": ":xliff:addProduct_LabelSKU",
+					"top": 173,
+					"left": 23,
+					"width": 150,
+					"height": 15
+				},
+				"Input4": {
+					"type": "input",
+					"left": 108,
+					"top": 172,
+					"width": 194,
+					"height": 16,
+					"dataSource": "Form:C1466.sku"
+				},
+				"Text5": {
+					"type": "text",
+					"text": ":xliff:addProduct_LabelSupplier",
+					"top": 209,
+					"left": 23,
+					"width": 150,
+					"height": 15
+				},
+				"Input5": {
+					"type": "input",
+					"left": 108,
+					"top": 208,
+					"width": 194,
+					"height": 16,
+					"dataSource": "Form:C1466.supplier"
+				},
+				"Text6": {
+					"type": "text",
+					"text": ":xliff:addProduct_LabelStatus",
+					"top": 245,
+					"left": 23,
+					"width": 150,
+					"height": 15
+				},
+				"Text7": {
+					"type": "text",
+					"text": ":xliff:addProduct_LabelDateAdded",
+					"top": 275,
+					"left": 23,
+					"width": 150,
+					"height": 15
+				},
+				"Input7": {
+					"type": "input",
+					"left": 108,
+					"top": 274,
+					"width": 194,
+					"height": 16,
+					"dataSource": "Form:C1466.dateAdded",
+					"dataSourceTypeHint": "date"
+				},
+				"Text8": {
+					"type": "text",
+					"text": ":xliff:addProduct_LabelRestockDate",
+					"top": 306,
+					"left": 23,
+					"width": 150,
+					"height": 15
+				},
+				"Input8": {
+					"type": "input",
+					"left": 108,
+					"top": 305,
+					"width": 194,
+					"height": 16,
+					"dataSource": "Form:C1466.restockDate",
+					"dataSourceTypeHint": "date"
+				},
+				"Button": {
+					"type": "button",
+					"text": ":xliff:CommonOK",
+					"top": 384,
+					"left": 212,
+					"width": 95,
+					"height": 40,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button.4dm",
+					"action": "accept"
+				},
+				"Button1": {
+					"type": "button",
+					"text": ":xliff:CommonCancel",
+					"top": 384,
+					"left": 102,
+					"width": 95,
+					"height": 40,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button1.4dm"
+				},
+				"statusDropdown": {
+					"type": "dropdown",
+					"left": 102,
+					"top": 237,
+					"width": 200,
+					"height": 28,
+					"events": [
+						"onDataChange"
+					],
+					"dataSource": "statusArray",
+					"dataSourceTypeHint": "arrayText"
+				},
+				"Text9": {
+					"type": "text",
+					"text": ":xliff:addProduct_LabelSoldUnits",
+					"top": 342,
+					"left": 23,
+					"width": 150,
+					"height": 15
+				},
+				"Input6": {
+					"type": "input",
+					"left": 108,
+					"top": 341,
+					"width": 194,
+					"height": 16,
+					"dataSource": "Form:C1466.soldUnits",
+					"dataSourceTypeHint": "number"
+				},
+				"Popup Dropdown List": {
+					"type": "dropdown",
+					"left": 102,
+					"top": 65,
+					"width": 194,
+					"height": 21,
+					"events": [
+						"onDataChange"
+					],
+					"dataSource": "categoryArray"
+				},
+				"Input1": {
+					"type": "input",
+					"left": 108,
+					"top": 106,
+					"width": 194,
+					"height": 16,
+					"dataSource": "Form:C1466.price",
+					"dataSourceTypeHint": "number"
+				},
+				"Input2": {
+					"type": "input",
+					"left": 108,
+					"top": 137,
+					"width": 194,
+					"height": 16,
+					"dataSource": "Form:C1466.stockLevel",
+					"dataSourceTypeHint": "number"
+				}
+			}
+		}
+	],
+	"geometryStamp": 57,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"method": "method.4dm"
+}

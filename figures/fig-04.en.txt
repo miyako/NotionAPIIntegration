@@ -1,0 +1,64 @@
+System
++ ADD NEW
+TOTAL REVENUE
+Current inventory
+Refresh Invente
+Black TV HD
+100
+Electronics
+2025-08-11T23:00: 10
+10
+Out of Stock
+10
+Yellow Shirt
+100
+Apparel
+10
+10
+Low Stock
+10
+White Shoes
+100
+Apparel
+APIO3
+2025-08-11T23:00: 10
+10
+Low Stock
+10
+GUDA
+Apparel
+APIO.
+2025-08-10T23:00 0
+10
+In stock
+100
+Handcrafted Bamboo Bowl 374.85
+Home Goods
+He789
+2025-05-02
+24.99
+2025-05-15
+15
+In Stock
+100
+‘Smart LED Desk Lamp
+367.92
+Electronics
+2025-05-04
+45.99
+2025-05-11
+8
+In Stock
+100
+‘Smart LED Desk Lamp
+36792
+Other
+TECH445,
+2025-05-04
+45.99
+2025-05-11
+8
+In stock
+100
+Update Stock
+Delete Stock

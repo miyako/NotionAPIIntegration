@@ -1,0 +1,19 @@
+Nome
+White Shoes
+Category
+Apparel
+Price
+Stock
+level
+10
+sku
+APIO3
+supplier
+FastFashion Wholesale
+Added Date
+12/08/2025
+Restock Date
+Sold Units
+10
+Status
+Low

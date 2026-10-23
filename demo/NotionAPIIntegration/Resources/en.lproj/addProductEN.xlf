@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="addProductEN.xlf" source-language="en" target-language="en">
+		<body>
+			<trans-unit id="addProduct_WindowTitle" resname="addProduct_WindowTitle">
+				<source>Add New Item</source>
+				<target>Add New Item</target>
+			</trans-unit>
+			<trans-unit id="addProduct_LabelName" resname="addProduct_LabelName">
+				<source>Name:</source>
+				<target>Name:</target>
+			</trans-unit>
+			<trans-unit id="addProduct_LabelCategory" resname="addProduct_LabelCategory">
+				<source>Category:</source>
+				<target>Category:</target>
+			</trans-unit>
+			<trans-unit id="addProduct_LabelPrice" resname="addProduct_LabelPrice">
+				<source>Price:</source>
+				<target>Price:</target>
+			</trans-unit>
+			<trans-unit id="addProduct_LabelStockLevel" resname="addProduct_LabelStockLevel">
+				<source>Stock Level:</source>
+				<target>Stock Level:</target>
+			</trans-unit>
+			<trans-unit id="addProduct_LabelSKU" resname="addProduct_LabelSKU">
+				<source>SKU:</source>
+				<target>SKU:</target>
+			</trans-unit>
+			<trans-unit id="addProduct_LabelSupplier" resname="addProduct_LabelSupplier">
+				<source>Supplier:</source>
+				<target>Supplier:</target>
+			</trans-unit>
+			<trans-unit id="addProduct_LabelStatus" resname="addProduct_LabelStatus">
+				<source>Status:</source>
+				<target>Status:</target>
+			</trans-unit>
+			<trans-unit id="addProduct_LabelDateAdded" resname="addProduct_LabelDateAdded">
+				<source>Date Added:</source>
+				<target>Date Added:</target>
+			</trans-unit>
+			<trans-unit id="addProduct_LabelRestockDate" resname="addProduct_LabelRestockDate">
+				<source>Restock Date:</source>
+				<target>Restock Date:</target>
+			</trans-unit>
+			<trans-unit id="addProduct_LabelSoldUnits" resname="addProduct_LabelSoldUnits">
+				<source>Sold Units:</source>
+				<target>Sold Units:</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

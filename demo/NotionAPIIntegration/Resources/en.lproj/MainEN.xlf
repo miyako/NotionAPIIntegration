@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="MainEN.xlf" source-language="en" target-language="en">
+		<body>
+			<trans-unit id="Main_WindowTitle" resname="Main_WindowTitle">
+				<source>Inventory Manager</source>
+				<target>Inventory Manager</target>
+			</trans-unit>
+			<trans-unit id="Main_HeaderName" resname="Main_HeaderName">
+				<source>Name</source>
+				<target>Name</target>
+			</trans-unit>
+			<trans-unit id="Main_HeaderRevenueEstimate" resname="Main_HeaderRevenueEstimate">
+				<source>Revenue Estimate</source>
+				<target>Revenue Estimate</target>
+			</trans-unit>
+			<trans-unit id="Main_HeaderCategory" resname="Main_HeaderCategory">
+				<source>Category</source>
+				<target>Category</target>
+			</trans-unit>
+			<trans-unit id="Main_HeaderSKU" resname="Main_HeaderSKU">
+				<source>SKU</source>
+				<target>SKU</target>
+			</trans-unit>
+			<trans-unit id="Main_HeaderDateAdded" resname="Main_HeaderDateAdded">
+				<source>Date Added</source>
+				<target>Date Added</target>
+			</trans-unit>
+			<trans-unit id="Main_HeaderPrice" resname="Main_HeaderPrice">
+				<source>Price</source>
+				<target>Price</target>
+			</trans-unit>
+			<trans-unit id="Main_HeaderRestockDate" resname="Main_HeaderRestockDate">
+				<source>Restock Date</source>
+				<target>Restock Date</target>
+			</trans-unit>
+			<trans-unit id="Main_HeaderSoldUnits" resname="Main_HeaderSoldUnits">
+				<source>Sold Units</source>
+				<target>Sold Units</target>
+			</trans-unit>
+			<trans-unit id="Main_HeaderStatus" resname="Main_HeaderStatus">
+				<source>Status</source>
+				<target>Status</target>
+			</trans-unit>
+			<trans-unit id="Main_HeaderStockLevel" resname="Main_HeaderStockLevel">
+				<source>Stock Level</source>
+				<target>Stock Level</target>
+			</trans-unit>
+			<trans-unit id="Main_HeaderSupplier" resname="Main_HeaderSupplier">
+				<source>Supplier</source>
+				<target>Supplier</target>
+			</trans-unit>
+			<trans-unit id="Main_BtnUpdateStock" resname="Main_BtnUpdateStock">
+				<source>Update Stock</source>
+				<target>Update Stock</target>
+			</trans-unit>
+			<trans-unit id="Main_BtnGetInventory" resname="Main_BtnGetInventory">
+				<source>Get Inventory</source>
+				<target>Get Inventory</target>
+			</trans-unit>
+			<trans-unit id="Main_BtnDeleteItem" resname="Main_BtnDeleteItem">
+				<source>Delete Item</source>
+				<target>Delete Item</target>
+			</trans-unit>
+			<trans-unit id="Main_BtnAddNewItem" resname="Main_BtnAddNewItem">
+				<source>Add New Item</source>
+				<target>Add New Item</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

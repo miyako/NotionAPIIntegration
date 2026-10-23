@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="MainJA.xlf" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="Main_WindowTitle" resname="Main_WindowTitle">
+				<source>Inventory Manager</source>
+				<target>在庫管理</target>
+			</trans-unit>
+			<trans-unit id="Main_HeaderName" resname="Main_HeaderName">
+				<source>Name</source>
+				<target>商品名</target>
+			</trans-unit>
+			<trans-unit id="Main_HeaderRevenueEstimate" resname="Main_HeaderRevenueEstimate">
+				<source>Revenue Estimate</source>
+				<target>売上見込</target>
+			</trans-unit>
+			<trans-unit id="Main_HeaderCategory" resname="Main_HeaderCategory">
+				<source>Category</source>
+				<target>カテゴリー</target>
+			</trans-unit>
+			<trans-unit id="Main_HeaderSKU" resname="Main_HeaderSKU">
+				<source>SKU</source>
+				<target>SKU</target>
+			</trans-unit>
+			<trans-unit id="Main_HeaderDateAdded" resname="Main_HeaderDateAdded">
+				<source>Date Added</source>
+				<target>登録日</target>
+			</trans-unit>
+			<trans-unit id="Main_HeaderPrice" resname="Main_HeaderPrice">
+				<source>Price</source>
+				<target>価格</target>
+			</trans-unit>
+			<trans-unit id="Main_HeaderRestockDate" resname="Main_HeaderRestockDate">
+				<source>Restock Date</source>
+				<target>補充予定日</target>
+			</trans-unit>
+			<trans-unit id="Main_HeaderSoldUnits" resname="Main_HeaderSoldUnits">
+				<source>Sold Units</source>
+				<target>販売数</target>
+			</trans-unit>
+			<trans-unit id="Main_HeaderStatus" resname="Main_HeaderStatus">
+				<source>Status</source>
+				<target>ステータス</target>
+			</trans-unit>
+			<trans-unit id="Main_HeaderStockLevel" resname="Main_HeaderStockLevel">
+				<source>Stock Level</source>
+				<target>在庫数</target>
+			</trans-unit>
+			<trans-unit id="Main_HeaderSupplier" resname="Main_HeaderSupplier">
+				<source>Supplier</source>
+				<target>仕入先</target>
+			</trans-unit>
+			<trans-unit id="Main_BtnUpdateStock" resname="Main_BtnUpdateStock">
+				<source>Update Stock</source>
+				<target>在庫を更新</target>
+			</trans-unit>
+			<trans-unit id="Main_BtnGetInventory" resname="Main_BtnGetInventory">
+				<source>Get Inventory</source>
+				<target>在庫を取得</target>
+			</trans-unit>
+			<trans-unit id="Main_BtnDeleteItem" resname="Main_BtnDeleteItem">
+				<source>Delete Item</source>
+				<target>アイテムを削除</target>
+			</trans-unit>
+			<trans-unit id="Main_BtnAddNewItem" resname="Main_BtnAddNewItem">
+				<source>Add New Item</source>
+				<target>アイテムを追加</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

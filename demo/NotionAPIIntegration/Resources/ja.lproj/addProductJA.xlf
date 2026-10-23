@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="addProductJA.xlf" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="addProduct_WindowTitle" resname="addProduct_WindowTitle">
+				<source>Add New Item</source>
+				<target>アイテムの追加</target>
+			</trans-unit>
+			<trans-unit id="addProduct_LabelName" resname="addProduct_LabelName">
+				<source>Name:</source>
+				<target>商品名：</target>
+			</trans-unit>
+			<trans-unit id="addProduct_LabelCategory" resname="addProduct_LabelCategory">
+				<source>Category:</source>
+				<target>カテゴリー：</target>
+			</trans-unit>
+			<trans-unit id="addProduct_LabelPrice" resname="addProduct_LabelPrice">
+				<source>Price:</source>
+				<target>価格：</target>
+			</trans-unit>
+			<trans-unit id="addProduct_LabelStockLevel" resname="addProduct_LabelStockLevel">
+				<source>Stock Level:</source>
+				<target>在庫数：</target>
+			</trans-unit>
+			<trans-unit id="addProduct_LabelSKU" resname="addProduct_LabelSKU">
+				<source>SKU:</source>
+				<target>SKU：</target>
+			</trans-unit>
+			<trans-unit id="addProduct_LabelSupplier" resname="addProduct_LabelSupplier">
+				<source>Supplier:</source>
+				<target>仕入先：</target>
+			</trans-unit>
+			<trans-unit id="addProduct_LabelStatus" resname="addProduct_LabelStatus">
+				<source>Status:</source>
+				<target>ステータス：</target>
+			</trans-unit>
+			<trans-unit id="addProduct_LabelDateAdded" resname="addProduct_LabelDateAdded">
+				<source>Date Added:</source>
+				<target>登録日：</target>
+			</trans-unit>
+			<trans-unit id="addProduct_LabelRestockDate" resname="addProduct_LabelRestockDate">
+				<source>Restock Date:</source>
+				<target>補充予定日：</target>
+			</trans-unit>
+			<trans-unit id="addProduct_LabelSoldUnits" resname="addProduct_LabelSoldUnits">
+				<source>Sold Units:</source>
+				<target>販売数：</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

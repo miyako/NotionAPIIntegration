@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="messagesEN.xlf" source-language="en" target-language="en">
+		<body>
+			<trans-unit id="Startup_AlertCredentials" resname="Startup_AlertCredentials">
+				<source>Please enter your Notion API credentials.</source>
+				<target>Please enter your Notion API credentials.</target>
+			</trans-unit>
+			<trans-unit id="Startup_RequestBearerToken" resname="Startup_RequestBearerToken">
+				<source>Enter Notion Bearer Token:</source>
+				<target>Enter Notion Bearer Token:</target>
+			</trans-unit>
+			<trans-unit id="Startup_RequestDatabaseId" resname="Startup_RequestDatabaseId">
+				<source>Enter Notion Database ID:</source>
+				<target>Enter Notion Database ID:</target>
+			</trans-unit>
+			<trans-unit id="Alert_ProductNameRequired" resname="Alert_ProductNameRequired">
+				<source>Product Name is required!</source>
+				<target>Product Name is required!</target>
+			</trans-unit>
+			<trans-unit id="Alert_ItemAdded" resname="Alert_ItemAdded">
+				<source>Item '{name}' added successfully!</source>
+				<target>Item '{name}' added successfully!</target>
+			</trans-unit>
+			<trans-unit id="Alert_ErrorAddingItem" resname="Alert_ErrorAddingItem">
+				<source>Error adding item: {status} - {message}</source>
+				<target>Error adding item: {status} - {message}</target>
+			</trans-unit>
+			<trans-unit id="Alert_SelectProductToDelete" resname="Alert_SelectProductToDelete">
+				<source>Please select a product from the list to delete.</source>
+				<target>Please select a product from the list to delete.</target>
+			</trans-unit>
+			<trans-unit id="Request_ConfirmDelete" resname="Request_ConfirmDelete">
+				<source>Type 'DELETE' to confirm deletion of {name}:</source>
+				<target>Type 'DELETE' to confirm deletion of {name}:</target>
+			</trans-unit>
+			<trans-unit id="Alert_DeletionCancelled" resname="Alert_DeletionCancelled">
+				<source>Deletion cancelled.</source>
+				<target>Deletion cancelled.</target>
+			</trans-unit>
+			<trans-unit id="Alert_ProductDeleted" resname="Alert_ProductDeleted">
+				<source>Product {name} deleted successfully!</source>
+				<target>Product {name} deleted successfully!</target>
+			</trans-unit>
+			<trans-unit id="Alert_ErrorDeletingProduct" resname="Alert_ErrorDeletingProduct">
+				<source>Error deleting product: {status} - {message}</source>
+				<target>Error deleting product: {status} - {message}</target>
+			</trans-unit>
+			<trans-unit id="Alert_SelectProductToUpdate" resname="Alert_SelectProductToUpdate">
+				<source>Please select a product from the list to update its stock.</source>
+				<target>Please select a product from the list to update its stock.</target>
+			</trans-unit>
+			<trans-unit id="Alert_StockUpdated" resname="Alert_StockUpdated">
+				<source>Stock level for {name} updated successfully!</source>
+				<target>Stock level for {name} updated successfully!</target>
+			</trans-unit>
+			<trans-unit id="Alert_ErrorUpdatingStock" resname="Alert_ErrorUpdatingStock">
+				<source>Error updating stock: {status} - {message}</source>
+				<target>Error updating stock: {status} - {message}</target>
+			</trans-unit>
+			<trans-unit id="Alert_ErrorQueryingDatabase" resname="Alert_ErrorQueryingDatabase">
+				<source>Error querying database: {status} - {message}</source>
+				<target>Error querying database: {status} - {message}</target>
+			</trans-unit>
+			<trans-unit id="MenuItemInventory" resname="MenuItemInventory">
+				<source>Inventory Manager</source>
+				<target>Inventory Manager</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
