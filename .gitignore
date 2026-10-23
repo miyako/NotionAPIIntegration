@@ -12,3 +12,10 @@ demo/*/Project/DerivedData/
 # Private TLS material shipped with the demo
 demo/*/key.pem
 demo/*/csr.txt
+
+# Tools provisioned by the 4D skills (see the 4dtools skill)
+/tools/4dcatalog/
+/tools/4dform/
+/tools/4dlsp/
+/tools/4dlang/
+/tools/4dcli/
