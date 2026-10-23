@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
 
 // ----------------------------------------------------
 // User name (OS): Admin
@@ -13,7 +13,7 @@
 
 
 If (Form:C1466.productName="") | (Form:C1466.productName=Null:C1517)
-	ALERT:C41("Product Name is required!")
+	ALERT:C41(Localized string("Alert_ProductNameRequired"))
 	return 
 Else 
 	// Convert array selection to Form.status
@@ -131,7 +131,7 @@ Else
 	$dbRequest.wait(30)
 	
 	If (($dbRequest.response.status>=200) & ($dbRequest.response.status<300))
-		ALERT:C41("Item '"+$itemData.productName+"' added successfully!")
+		ALERT:C41(Replace string(Localized string("Alert_ItemAdded"); "{name}"; $itemData.productName))
 		OK:=1
 		CANCEL:C270
 		getNotionDatabase
@@ -146,9 +146,9 @@ Else
 		
 		Try
 			$dbResponse:=JSON Parse:C1218($errorBody)
-			ALERT:C41("Error adding item: "+String:C10($dbRequest.response.status)+" - "+$dbResponse.message)
+			ALERT:C41(Replace string(Replace string(Localized string("Alert_ErrorAddingItem"); "{status}"; String:C10($dbRequest.response.status)); "{message}"; String:C10($dbResponse.message)))
 		Catch
-			ALERT:C41("Error adding item: "+String:C10($dbRequest.response.status)+" - "+$errorBody)
+			ALERT:C41(Replace string(Replace string(Localized string("Alert_ErrorAddingItem"); "{status}"; String:C10($dbRequest.response.status)); "{message}"; $errorBody))
 		End try
 	End if 
 	

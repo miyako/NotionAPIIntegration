@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
 // ----------------------------------------------------
 // User name (OS): Admin
 // Date and time: 08/06/25, 17:39:21
@@ -113,5 +113,5 @@ If (($dbRequest.response.status>=200) & ($dbRequest.response.status<300))
 	Form:C1466.inventoryData:=mappedInventory
 	
 Else 
-	ALERT:C41("Error querying database: "+String:C10($dbRequest.response.status)+" - "+String:C10($dbRequest.response.statusText))
+	ALERT:C41(Replace string(Replace string(Localized string("Alert_ErrorQueryingDatabase"); "{status}"; String:C10($dbRequest.response.status)); "{message}"; String:C10($dbRequest.response.statusText)))
 End if 

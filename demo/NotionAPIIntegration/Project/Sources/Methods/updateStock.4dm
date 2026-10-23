@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
 
 var $dbRequest : 4D:C1709.HTTPRequest
 var $dbResponse : Object
@@ -10,7 +10,7 @@ var $requestBody : Object
 If (Form:C1466.curItem#Null:C1517)
 	$pageId:=Form:C1466.curItem.id
 Else 
-	ALERT:C41("Please select a product from the list to update its stock.")
+	ALERT:C41(Localized string("Alert_SelectProductToUpdate"))
 	return 
 End if 
 
@@ -35,7 +35,7 @@ $dbRequest.wait(30)
 
 
 If (($dbRequest.response.status>=200) & ($dbRequest.response.status<300))
-	ALERT:C41("Stock level for "+Form:C1466.curItem.productName+" updated successfully!")
+	ALERT:C41(Replace string(Localized string("Alert_StockUpdated"); "{name}"; Form:C1466.curItem.productName))
 	getNotionDatabase
 Else 
 	var $errorBody : Text
@@ -43,8 +43,8 @@ Else
 	
 	Try
 		$dbResponse:=JSON Parse:C1218($errorBody)
-		ALERT:C41("Error updating stock: "+String:C10($dbRequest.response.status)+" - "+$dbResponse.message)
+		ALERT:C41(Replace string(Replace string(Localized string("Alert_ErrorUpdatingStock"); "{status}"; String:C10($dbRequest.response.status)); "{message}"; String:C10($dbResponse.message)))
 	Catch
-		ALERT:C41("Error updating stock: "+String:C10($dbRequest.response.status)+" - "+$errorBody)
+		ALERT:C41(Replace string(Replace string(Localized string("Alert_ErrorUpdatingStock"); "{status}"; String:C10($dbRequest.response.status)); "{message}"; $errorBody))
 	End try
 End if 
