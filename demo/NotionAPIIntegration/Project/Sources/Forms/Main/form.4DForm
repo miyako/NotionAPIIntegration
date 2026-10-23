@@ -28,7 +28,7 @@
 		"onTimer",
 		"onBoundVariableChange"
 	],
-	"windowTitle": "window title",
+	"windowTitle": ":xliff:Main_WindowTitle",
 	"destination": "detailScreen",
 	"pages": [
 		{
@@ -50,6 +50,7 @@
 						"onHeaderClick"
 					],
 					"listboxType": "collection",
+					"resizingMode": "legacy",
 					"dataSource": "mappedInventory",
 					"method": "ObjectMethods/inventoryListbox.4dm",
 					"currentItemSource": "Form:C1466.curItem",
@@ -61,9 +62,10 @@
 						{
 							"header": {
 								"name": "Name",
-								"text": "Name"
+								"text": ":xliff:Main_HeaderName"
 							},
 							"name": "Column14",
+							"truncateMode": "none",
 							"dataSource": "This:C1470.productName",
 							"footer": {
 								"name": "Footer14"
@@ -73,9 +75,10 @@
 						{
 							"header": {
 								"name": "Header12",
-								"text": "Revenue Estimate"
+								"text": ":xliff:Main_HeaderRevenueEstimate"
 							},
 							"name": "Column12",
+							"truncateMode": "none",
 							"footer": {
 								"name": "Footer12"
 							},
@@ -86,10 +89,11 @@
 						},
 						{
 							"header": {
-								"text": "Category",
+								"text": ":xliff:Main_HeaderCategory",
 								"name": "Header1"
 							},
 							"name": "Column1",
+							"truncateMode": "none",
 							"footer": {
 								"name": "Footer1"
 							},
@@ -100,9 +104,10 @@
 						{
 							"header": {
 								"name": "Header13",
-								"text": "SKU"
+								"text": ":xliff:Main_HeaderSKU"
 							},
 							"name": "Column13",
+							"truncateMode": "none",
 							"footer": {
 								"name": "Footer13"
 							},
@@ -112,9 +117,10 @@
 						{
 							"header": {
 								"name": "Header11",
-								"text": "Date Added"
+								"text": ":xliff:Main_HeaderDateAdded"
 							},
 							"name": "Column11",
+							"truncateMode": "none",
 							"footer": {
 								"name": "Footer11"
 							},
@@ -125,9 +131,10 @@
 						{
 							"header": {
 								"name": "Header10",
-								"text": "Price"
+								"text": ":xliff:Main_HeaderPrice"
 							},
 							"name": "Column10",
+							"truncateMode": "none",
 							"footer": {
 								"name": "Footer10"
 							},
@@ -139,9 +146,10 @@
 						{
 							"header": {
 								"name": "Header9",
-								"text": "Restock Date"
+								"text": ":xliff:Main_HeaderRestockDate"
 							},
 							"name": "Column9",
+							"truncateMode": "none",
 							"footer": {
 								"name": "Footer9"
 							},
@@ -151,9 +159,10 @@
 						{
 							"header": {
 								"name": "Header8",
-								"text": "Sold Units"
+								"text": ":xliff:Main_HeaderSoldUnits"
 							},
 							"name": "Column8",
+							"truncateMode": "none",
 							"footer": {
 								"name": "Footer8"
 							},
@@ -164,9 +173,10 @@
 						{
 							"header": {
 								"name": "Header6",
-								"text": "Status"
+								"text": ":xliff:Main_HeaderStatus"
 							},
 							"name": "Column6",
+							"truncateMode": "none",
 							"footer": {
 								"name": "Footer6"
 							},
@@ -176,9 +186,10 @@
 						{
 							"header": {
 								"name": "Header7",
-								"text": "Stock Level"
+								"text": ":xliff:Main_HeaderStockLevel"
 							},
 							"name": "Column7",
+							"truncateMode": "none",
 							"footer": {
 								"name": "Footer7"
 							},
@@ -190,9 +201,10 @@
 						{
 							"header": {
 								"name": "Header5",
-								"text": "Supplier"
+								"text": ":xliff:Main_HeaderSupplier"
 							},
 							"name": "Column5",
+							"truncateMode": "none",
 							"footer": {
 								"name": "Footer5"
 							},
@@ -203,7 +215,7 @@
 				},
 				"Button": {
 					"type": "button",
-					"text": "Update Stock",
+					"text": ":xliff:Main_BtnUpdateStock",
 					"top": 564,
 					"left": 687,
 					"width": 160,
@@ -216,7 +228,7 @@
 				},
 				"Button1": {
 					"type": "button",
-					"text": "Get Inventory",
+					"text": ":xliff:Main_BtnGetInventory",
 					"top": 564,
 					"left": 906,
 					"width": 160,
@@ -229,7 +241,7 @@
 				},
 				"Button2": {
 					"type": "button",
-					"text": "Delete Item",
+					"text": ":xliff:Main_BtnDeleteItem",
 					"top": 564,
 					"left": 468,
 					"width": 160,
@@ -242,7 +254,7 @@
 				},
 				"Button3": {
 					"type": "button",
-					"text": "Add New Item",
+					"text": ":xliff:Main_BtnAddNewItem",
 					"top": 564,
 					"left": 249,
 					"width": 160,

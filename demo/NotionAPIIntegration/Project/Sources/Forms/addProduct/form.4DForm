@@ -28,7 +28,7 @@
 		"onTimer",
 		"onBoundVariableChange"
 	],
-	"windowTitle": "window title",
+	"windowTitle": ":xliff:addProduct_WindowTitle",
 	"destination": "detailScreen",
 	"pages": [
 		{
@@ -38,7 +38,7 @@
 			"objects": {
 				"Text": {
 					"type": "text",
-					"text": "Name:\rName\rName",
+					"text": ":xliff:addProduct_LabelName",
 					"top": 29,
 					"left": 23,
 					"width": 150,
@@ -54,7 +54,7 @@
 				},
 				"Text1": {
 					"type": "text",
-					"text": "Category:\rName\rName",
+					"text": ":xliff:addProduct_LabelCategory",
 					"top": 65,
 					"left": 23,
 					"width": 150,
@@ -62,7 +62,7 @@
 				},
 				"Text2": {
 					"type": "text",
-					"text": "Price:\rName\rName",
+					"text": ":xliff:addProduct_LabelPrice",
 					"top": 101,
 					"left": 23,
 					"width": 150,
@@ -70,7 +70,7 @@
 				},
 				"Text3": {
 					"type": "text",
-					"text": "Stock Level",
+					"text": ":xliff:addProduct_LabelStockLevel",
 					"top": 137,
 					"left": 23,
 					"width": 150,
@@ -78,7 +78,7 @@
 				},
 				"Text4": {
 					"type": "text",
-					"text": "SKU:",
+					"text": ":xliff:addProduct_LabelSKU",
 					"top": 173,
 					"left": 23,
 					"width": 150,
@@ -94,7 +94,7 @@
 				},
 				"Text5": {
 					"type": "text",
-					"text": "Supplier:",
+					"text": ":xliff:addProduct_LabelSupplier",
 					"top": 209,
 					"left": 23,
 					"width": 150,
@@ -110,7 +110,7 @@
 				},
 				"Text6": {
 					"type": "text",
-					"text": "Status:",
+					"text": ":xliff:addProduct_LabelStatus",
 					"top": 245,
 					"left": 23,
 					"width": 150,
@@ -118,7 +118,7 @@
 				},
 				"Text7": {
 					"type": "text",
-					"text": "Date Added:",
+					"text": ":xliff:addProduct_LabelDateAdded",
 					"top": 275,
 					"left": 23,
 					"width": 150,
@@ -135,7 +135,7 @@
 				},
 				"Text8": {
 					"type": "text",
-					"text": "Restock Date:",
+					"text": ":xliff:addProduct_LabelRestockDate",
 					"top": 306,
 					"left": 23,
 					"width": 150,
@@ -152,7 +152,7 @@
 				},
 				"Button": {
 					"type": "button",
-					"text": "OK",
+					"text": ":xliff:CommonOK",
 					"top": 384,
 					"left": 212,
 					"width": 95,
@@ -165,7 +165,7 @@
 				},
 				"Button1": {
 					"type": "button",
-					"text": "Cancel",
+					"text": ":xliff:CommonCancel",
 					"top": 384,
 					"left": 102,
 					"width": 95,
@@ -189,7 +189,7 @@
 				},
 				"Text9": {
 					"type": "text",
-					"text": "Sold Units:",
+					"text": ":xliff:addProduct_LabelSoldUnits",
 					"top": 342,
 					"left": 23,
 					"width": 150,
