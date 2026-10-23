@@ -105,6 +105,7 @@ exposed Function getNotionDatabase() : Collection
 		itemsSold:=0
 		lowStockAlert:=0
 		
+		var $j : Integer
 		For ($j; 0; $dbPages.length-1)
 			var $page : Object
 			var $item : Object
@@ -129,6 +130,7 @@ exposed Function getNotionDatabase() : Collection
 			
 			var $tagNames : Collection
 			$tagNames:=New collection:C1472
+			var $tag : Object
 			For each ($tag; $page.properties.Tags.multi_select)
 				$tagNames.push($tag.name)
 			End for each 

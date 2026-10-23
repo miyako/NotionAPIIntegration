@@ -51,6 +51,7 @@ If (($dbRequest.response.status>=200) & ($dbRequest.response.status<300))
 	itemsSold:=0
 	lowStockAlert:=0
 	
+	var $j : Integer
 	For ($j; 0; $dbPages.length-1)
 		var $page : Object
 		var $item : Object
@@ -73,6 +74,7 @@ If (($dbRequest.response.status>=200) & ($dbRequest.response.status<300))
 		
 		var $tagNames : Collection
 		$tagNames:=New collection:C1472
+		var $tag : Object
 		For each ($tag; $page.properties.Tags.multi_select)
 			$tagNames.push($tag.name)
 		End for each 
@@ -113,5 +115,5 @@ If (($dbRequest.response.status>=200) & ($dbRequest.response.status<300))
 	Form:C1466.inventoryData:=mappedInventory
 	
 Else 
-	ALERT:C41(Replace string(Replace string(Localized string("Alert_ErrorQueryingDatabase"); "{status}"; String:C10($dbRequest.response.status)); "{message}"; String:C10($dbRequest.response.statusText)))
+	ALERT:C41(Replace string:C233(Replace string:C233(Localized string:C991("Alert_ErrorQueryingDatabase"); "{status}"; String:C10($dbRequest.response.status)); "{message}"; String:C10($dbRequest.response.statusText)))
 End if 

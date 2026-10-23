@@ -7,6 +7,7 @@
 
 If (FORM Event:C1606.code=On Clicked:K2:4)
 	
+	var $palette_window : Integer
 	$palette_window:=Open form window:C675("addProduct"; Palette form window:K39:9)
 	DIALOG:C40("addProduct"; *)
 	
